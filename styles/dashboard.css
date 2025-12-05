@@ -1,0 +1,139 @@
+.dashboard-container {
+  min-height: 100vh;
+  background: linear-gradient(to right, #000000, #0f2027);
+  background-size:200%;
+  background-position:center center;
+}
+
+.dashboard-header {
+  background: none;
+  color: white;
+  padding: 2vh 2vw;
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+.header-content {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.user-email {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.header-right {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.refresh-button,
+.signout-button {
+  padding: 2vh 2vw;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.refresh-button {
+  background: none;
+  color: white;
+  padding: 2vh 2vh;
+  border-radius:50%;
+  box-shadow:0 0 7px #404040; 
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.refresh-button:hover {
+  background: white;
+  color:black;
+}
+
+.signout-button {
+  background: white;
+  color: black;
+  padding: 2vh 2vh;
+  border-radius:50%;
+  box-shadow:0 0 10px #4d4d4d; 
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.signout-button:hover {
+  background: black;
+  color:white;
+}
+
+.dashboard-content {
+  margin: 0 auto;
+  padding: 32px 10px;
+}
+
+.loading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  font-size: 18px;
+  color: #667eea;
+}
+
+.error-container {
+  background: #fee;
+  color: #c33;
+  padding: 16px 24px;
+  border-radius: 8px;
+  border-left: 4px solid #c33;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+  .dashboard-container{
+	background-position:right center;
+   }
+
+  .dashboard-header {
+    padding: 20px 16px;
+  }
+
+  .header-content {
+    gap: 16px;
+    text-align: center;
+  }
+
+  .header-left h1 {
+    font-size: 20px;
+  }
+
+
+  .refresh-button,
+  .signout-button {
+	font-size:12px;
+	padding:1vh 2vw;
+  }
+
+
+  .dashboard-content {
+    padding: 24px 16px;
+  }
+
+  .days-container {
+    grid-template-columns: 1fr;
+    gap:5vh;
+  }
+}
