@@ -97,9 +97,6 @@ export default function Dashboard() {
             <h1>Dashboard</h1>
           </div>
           <div className="header-right">
-            <button onClick={handleRefresh} className="refresh-button">
-		<RefreshCw size={20}  /> 
-            </button>
             <button onClick={handleSignOut} className="signout-button">
 		<LogOut size={20} /> 
             </button>
