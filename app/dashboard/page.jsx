@@ -7,6 +7,7 @@ import { signOut, onAuthStateChanged } from 'firebase/auth';
 import { supabase } from '@/lib/supabase';
 import RoutineTextInput from '@/components/RoutineTextInput';
 import RoutineDisplay from '@/components/RoutineDisplay';
+import NotificationSettings from '@/components/NotificationSettings';
 import '../../styles/dashboard.css';
 import { LogOut,RefreshCw } from "lucide-react";
 
@@ -117,6 +118,7 @@ export default function Dashboard() {
         />
 
         <RoutineDisplay routine={routine} />
+	<NotificationSettings routine={routine} />
       </main>
     </div>
   );

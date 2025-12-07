@@ -97,6 +97,13 @@ REQUIREMENTS:
 
 	NOTE: At first, make a button clicking on which will send a random mail immediately. Once that is done, in the next part, do the one for the daily scheduling  
 
+--------------------------------------------------------------------------------------------------------------------------------------------------
+For the next part,
+I want to add notification system.
+this time, I want to send a message from the browser daily at 06:00am.
+I no longer want to send emails. so that idea is ditched.
+
+Give me the simpliest code to make this browser notification functionality.
 
 
 
@@ -134,69 +141,39 @@ Friday:
 MATH 101 [ 10:30-11:20 | 9B06 | TBA ], 
 EEE 1131 [ 11:20-12:10 | 9B06 | TBA ], 
 CHEM 102(A1) [ 01:00-01:50 | 5B02 | TBA ]
---------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-Sunday : 
-EEE 1131 | (time: 10:30-11:20) | 2A06 | TBA 
-MATH 101 | (time: 11:20-12:10) | 2A06 | TBA 
-EEE 1132(A1) | (time: 01:00-01:50) | 3B01 | TBA 
-CE 100(A2) | (time: 01:00-01:50) | 2A06 | MR. FAHAD 
-
-
-Monday : 
-CE 103 | (time: 01:00-01:50) | 9B06 | MR. TARIK  
-CE 103 | (time: 01:50-02:40) | 9B06 | MR. MITHUN  
-PHY 101 | (time: 02:40-03:30) | 9B06 | TBA 
-
-
-Tuesday : 
-CE 103 | (time: 10:30-11:20) | 9B06 | MR. MIHUN 
-CHEM 101 | (time: 11:20-12:10) | 9B06 | TBA
-PHY 101 | (time: 12:10-01:00) | 9B06 | TBA  
-CHEM 102(A2) | (time: 01:50-02:40) | 5B02 | TBA 
-
-
-Wednesday : 
-CE 100(A1) | (time: 08:50-09:40) | 2A06 | MR. SAZEDUL, MR. RASHED  
-EEE 1132(A2) | (time: 09:40-10:30) | 3B01 | TBA  
-CHEM 101 | (time: 10:30-11:20) | 2A06 | TBA 
-CE 103 | (time: 12:10-01:00) | 2A06 | MR. TARIK 
-
-
-Friday: 
-MATH 101 | (time: 10:30-11:20) | 9B06 | TBA  
-EEE 1131 | (time: 11:20-12:10) | 9B06 | TBA  
-CHEM 102(A1) | (time: 01:00-01:50) | 5B02 | TBA 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
-
 Sunday:
-EEE 1242(A1) | (time: 01:50-02:40) | 9B05 | TBA
-CSE 1203 | (time: 03:30-04:20) | 7A04 | SHAHRIR
-MATH 1219 | (time: 04:20-05:10) | 7A04 | TBA
-ME 1211 | (time: 05:10-06:00) | 7A04 | TBA
+EEE 2142 | (time: 10:30-01:00) | 3B06 | TBA 
+CSE 2103 | (time: 01:00-01:50) | 7C06 | Ansary 
+EEE 2141 | (time: 01:50-02:40) | 7C06 | TBA 
+CSE 2105 | (time: 02:40-03:30) | 7C06 | Hasan
 
 Monday:
-CSE 1205 | (time: 01:00-01:50) | 7A03 | MAHBUB
-MATH 1219 | (time: 01:50-02:40) | 7A03 | TBA
-EEE 1241 | (time: 02:40-03:30) | 7A03 | TBA
-CSE 1206(A1) | (time: 03:30-04:20) | 7B01 | TAHASSUM, ELAHI
+CSE 2104  | (time: 10:30-01:00) | 7B05 | Ansary, Islam
+MATH 2101 | (time: 04:20-05:10) | 7A04 | TBA
+MATH 2101 | (time: 05:10-06:00) | 7A04 | TBA
 
-Friday:
-CSE 1200(A1) | (time: 10:30-11:20) | 7B03 | RENO, AHMED
-EEE 1241 | (time: 02:40-03:30) | 7C07 | TBA
-ME 1211 | (time: 03:30-04:20) | 7C07 | TBA
+Tuesday:
+EEE 2141 | (time: 09:40-10:30) | 7C06 | TBA
+HUM 2109 | (time: 10:30-11:20) | 7C06 | TBA
+CSE 2105 | (time: 11:20-12:10) | 7C06 | Hasan
 
 Wednesday:
-ME 1214 | (time: 01:00-01:50) | 8C03 | TBA
-CSE 1205 | (time: 02:40-03:30) | 7A03 | MAHBUB
-CSE 1203 | (time: 03:30-04:20) | 7A03 | SHAHRIR
-MATH 1219 | (time: 04:20-05:10) | 7A03 | TBA
+CSE 2103 | (time: 10:30-11:20) | 7A04 | Ansary
+HUM 2109 | (time: 11:20-12:10) | 7A04 | TBA
+CSE 2105 | (time: 12:10-01:00) | 7A04 | Hasan
+CSE 2100 | (time: 01:00-03:30) | 7B03 | Mahmud 
 
 Thursday:
-CSE 1203 | (time: 10:30-11:20) | 7C06 | SHAHRIR
-EEE 1241 | (time: 01:00-01:50) | 7A04 | TBA
-CSE 1205 | (time: 01:50-02:40) | 7A04 | MAHBUB
-ME 1211 | (time: 02:40-03:30) | 7A04 | TBA
+CSE 2103 | (time: 08:00-08:50) | 7A03 | Ansary
+MATH 2101| (time: 08:50-09:40) | 7A03 | TBA
+EEE 2141 | (time: 09:40-10:30) | 7A03 | TBA
+CSE 2106 | (time: 10:30-01:00) | 9A06 | Islam, Aftab
+--------------------------------------------------------------------------------------------------------------------------------------------------
 
+Sunday    : 10:30 - 03:30
+Monday    : 10:30 - 06:00
+Tuesday   : 09:40 - 12:10
+Wednesday : 10:30 - 03:30
+Thursday  : 08:00 - 01:00
