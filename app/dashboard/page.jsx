@@ -118,8 +118,14 @@ export default function Dashboard() {
         />
 
         <RoutineDisplay routine={routine} />
-	<NotificationSettings routine={routine} />
+	
       </main>
     </div>
   );
+		
+/* 
+ * The following component was right under the <RoutineDisplay routine={routine} /> component:
+ *
+ * 		<NotificationSettings routine={routine} /> 
+ */
 }

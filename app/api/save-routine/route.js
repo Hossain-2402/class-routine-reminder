@@ -28,10 +28,11 @@ function parseRoutineText(text) {
     // If we have a current day, add this as a class
     if (currentDay && line.trim()) {
       // Try to extract time and class info
-      const timeMatch = line.match(/(\d{1,2}:\d{2}|\d{1,2}\s*(?:am|pm))/i);
+      // Extract time from "(time: 10:30-01:00)" format
+      const timeMatch = line.match(/\(time:\s*(\d{1,2}:\d{2})\s*-\s*(\d{1,2}:\d{2})\s*\)/i);
       schedule[currentDay].push({
         raw: line.trim(),
-        time: timeMatch ? timeMatch[0] : null,
+        time: timeMatch ? `${timeMatch[1]}-${timeMatch[2]}` : null,
         text: line.trim()
       });
     }
